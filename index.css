@@ -1,0 +1,111 @@
+html, body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    ;
+}
+
+/* Header section */
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header-con{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(80, 245, 182);
+    width: 100%;
+}
+.header-img{
+    width: 60px;
+}
+
+.header-title{
+    margin-top: 15px;
+
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.section-btn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(80, 245, 182);
+    cursor: pointer;
+}
+.section-btn:hover{
+    background-color: aquamarine;
+    border: 1px solid;
+}
+
+/* meme modal */
+.meme-modal{
+    display: none;
+    background-color: rgb(80, 245, 182);
+    width: 500px;
+    height: 560px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.show-modal{
+    display: flex;
+}
+.modal-inner{
+    position: relative;
+}
+
+.modal-close{
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    top: 10;
+    bottom: 0;
+    left: 460;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(11, 172, 172);
+}
+.modal-close:hover{
+    background-color: rgb(239, 248, 245);
+}
+
+/* radios */
+.main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.cat-moods{
+    border: 2px solid rgb(80, 245, 182);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.radio{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    margin: 8px 0;
+}
